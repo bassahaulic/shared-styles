@@ -1,0 +1,90 @@
+/* Main container styling */
+.container {
+    font-family: 'Roboto', sans-serif;
+    color: #d3d3d3;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.component {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #111;
+    border-radius: 12px;
+    border: 2px solid #1e90ff;
+    box-shadow: 0 0 15px #1e90ff;
+    padding: 20px 30px;
+    text-align: left;
+}
+
+/* Headings */
+.component h1, .component h2, .component h3 {
+    font-family: 'Audiowide', sans-serif;
+    color: #1e90ff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Paragraphs */
+.component p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Lists */
+.component ul, .component ol {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.component li {
+    margin-bottom: 10px;
+}
+
+/* Links */
+.component a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.component a:hover {
+    color: #0077cc;
+}
+
+/* Buttons */
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #1e90ff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0077cc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .component {
+        padding: 20px;
+    }
+
+    .component h1, .component h2, .component h3 {
+        font-size: 20px;
+    }
+
+    .component p {
+        font-size: 14px;
+    }
+
+    .component ul, .component ol {
+        padding-left: 10px;
+    }
+}
